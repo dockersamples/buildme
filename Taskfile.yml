@@ -1,0 +1,43 @@
+version: '3'
+
+tasks:
+  goto:1:
+    cmds:
+      - cmd: cat chapters/1.Dockerfile > Dockerfile
+      - cmd: echo "Dockerfile set to chapter 1. Introduction"
+        silent: true
+  goto:2:
+    cmds:
+      - cmd: cat chapters/2.Dockerfile > Dockerfile
+      - cmd: echo "Dockerfile set to chapter 2. Layers"
+        silent: true
+  goto:3:
+    cmds:
+      - cmd: cat chapters/3.Dockerfile > Dockerfile
+      - cmd: echo "Dockerfile set to chapter 3. Multi-stage"
+        silent: true
+  goto:4:
+    cmds:
+      - cmd: cat chapters/4.Dockerfile > Dockerfile
+      - cmd: echo "Dockerfile set to chapter 4. Mounts"
+        silent: true
+  goto:5:
+    cmds:
+      - cmd: cat chapters/5.Dockerfile > Dockerfile
+      - cmd: echo "Dockerfile set to chapter 5. Build arguments"
+        silent: true
+  goto:6:
+    cmds:
+      - cmd: cat chapters/6.Dockerfile > Dockerfile
+      - cmd: echo "Dockerfile set to chapter 6. Export binaries"
+        silent: true
+  goto:7:
+    cmds:
+      - cmd: cat chapters/7.Dockerfile > Dockerfile
+      - cmd: echo "Dockerfile set to chapter 7. Test"
+        silent: true
+  goto:8:
+    cmds:
+      - cmd: cat chapters/8.Dockerfile > Dockerfile
+      - cmd: echo "Dockerfile set to chapter 8. Multi-platform"
+        silent: true
