@@ -1,7 +1,6 @@
 # syntax=docker/dockerfile:1
 ARG GO_VERSION=1.20.3
 FROM golang:${GO_VERSION}-alpine AS base
-ENV CGO_ENABLED=0
 WORKDIR /src
 RUN --mount=type=cache,target=/go/pkg/mod/ \
     --mount=type=bind,source=go.sum,target=go.sum \
