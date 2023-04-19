@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM golang:1.20.3-alpine
+FROM golang:1.20-alpine
 WORKDIR /src
 COPY . .
 RUN go mod download
