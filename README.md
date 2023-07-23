@@ -31,3 +31,5 @@ To reset your Dockerfile to a specific stage, install Task and run
 For example, running `task goto:1` resets the Dockerfile the starting point of
 the guide. Running `task goto:4` resets the Dockerfile to reflect the **finished
 version** of the 4th section of the guide.
+
+Modification to test out new PAT.
