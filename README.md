@@ -1,7 +1,12 @@
+> [!NOTE]
+> This repository has been archived and is no longer maintained.
+> For more information on how to build with Docker,
+> see the [Building images](https://docs.docker.com/get-started/docker-concepts/building-images/) guide.
+
 # Build with Docker
 
 This repository contains an example Go application, used in the
-[Build with Docker guide](https://docs.docker.com/build/guide).
+Build with Docker guide.
 
 This goal of this guide is to illustrate Docker Build features and best
 practices.
